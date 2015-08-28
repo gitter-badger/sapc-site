@@ -1,5 +1,10 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
+<<<<<<< HEAD
 	RewriteRule ^$ webroot/ [L]
 	RewriteRule (.*) webroot/$1 [L]
+=======
+	RewriteRule ^$ app/webroot/ [L]
+	RewriteRule (.*) app/webroot/$1 [L]
+>>>>>>> 9c283c5dcc316b67c31ab7d6420542587471799e
 </IfModule>
